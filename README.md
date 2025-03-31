@@ -1,5 +1,5 @@
-# Cinnamon Desktop On Github Codespace
-This configuration will install a Cinnamon desktop enviornment and automatically opens a VNC connection. 
+# XFCE Desktop On Github Codespace
+This configuration will install an XFCE desktop enviornment and automatically opens a VNC connection. 
 
 Using desktop enviornment on Codespace is generally allowed since Microsoft themself provided a documentation setting up a Fluxbox based desktop and installing a browser; https://github.com/devcontainers/features/tree/main/src/desktop-lite, but we will use Cinnamon instead. You don't need to worry about getting banned as long as you don't abuse the service and don't violate Github ToS
 
@@ -12,16 +12,10 @@ Using desktop enviornment on Codespace is generally allowed since Microsoft them
 
 The default VNC password is just `password`. You can change it using `vncpasswd` in Terminal. You don't need to worry about weak password because the vnc ports are not public by default, accessing the ports requires your Github account to be logged in. This makes it a lot secure
 
-The default keyboard layout is English (US). You can change it in Cinnamon settings
+The default keyboard layout is English (US). You can change it in XFCE settings
 
 To run Windows app, install Wine: https://wiki.winehq.org/Ubuntu
 
 # Limitations & bugs
 - No hardware acceleration because Codespace does not have a GPU
 - Terminal won't open. May work if you use Ubuntu 20.04
-
-# Screenshots
-
-![2024-05-31 20 36 02](https://github.com/AndnixSH/codespace-desktop/assets/40742924/efe23986-9024-457f-8e10-d04ac1898b18)
-
-![2024-05-31 20 35 27](https://github.com/AndnixSH/codespace-desktop/assets/40742924/5ddd627e-d48f-413c-a153-dff1173e75de)
