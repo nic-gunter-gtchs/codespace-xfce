@@ -1,7 +1,7 @@
 # XFCE Desktop On Github Codespace
 This configuration will install an XFCE desktop enviornment and automatically opens a VNC connection.
 
-Using desktop enviornment on Codespace is generally allowed since Microsoft themself provided a documentation setting up a Fluxbox based desktop and installing a browser; https://github.com/devcontainers/features/tree/main/src/desktop-lite, but we will use Cinnamon instead. You don't need to worry about getting banned as long as you don't abuse the service and don't violate Github ToS
+Using desktop enviornment on Codespace is generally allowed since Microsoft themself provided a documentation setting up a Fluxbox based desktop and installing a browser; https://github.com/devcontainers/features/tree/main/src/desktop-lite, but we will use XFCE instead.
 
 # How to use
 1. Create a new space: https://github.com/codespaces/new
@@ -18,4 +18,4 @@ To run Windows apps, install Wine: https://wiki.winehq.org/Ubuntu
 
 # Limitations & bugs
 - No hardware acceleration because Codespace does not have a GPU
-- Terminal won't open. May work if you use Ubuntu 20.04
+- Terminal won't open. May work if you use Ubuntu 20.04, or use the XFCE Terminal
