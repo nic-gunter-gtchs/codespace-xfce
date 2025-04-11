@@ -1,21 +1,20 @@
 # XFCE Desktop On Github Codespace
-This configuration will install an XFCE desktop enviornment and automatically opens a VNC connection.
+This repo will set up the XFCE desktop environment on a Github Codespace and open a noVNC web interface.
 
-Using desktop enviornment on Codespace is generally allowed since Microsoft themself provided a documentation setting up a Fluxbox based desktop and installing a browser; https://github.com/devcontainers/features/tree/main/src/desktop-lite, but we will use XFCE instead.
+Using a desktop enviornment on a Codespace is allowed since Microsoft provided a documentation setting up a Fluxbox based desktop and installing a browser `https://github.com/devcontainers/features/tree/main/src/desktop-lite`, but this repo uses XFCE instead.
 
 # How to use
-1. Create a new space: https://github.com/codespaces/new
+1. Create a new codespace: https://github.com/codespaces/new
 2. Select this repo `nic-gunter-gtchs/codespace-xfce`
-3. Select a machine type. To unlock better machine types, file a ticket to Github: https://support.github.com/contact?tags=rr-codespaces%2Ccat_codespace
-4. Click "Create codespace". It will take a while to create
-5. Once created, open PORTS tab, open forwarded address, click on `vnc.html` link and enter your VNC password
+3. Click "Create codespace". It will take a while to build
+4. Once created, open PORTS tab, open forwarded address, click on `vnc.html` and enter your VNC password once noVNC shows up
 
-The default VNC password is just `password`. You can change it using `vncpasswd` in Terminal. You don't need to worry about weak password because the vnc ports are not public by default, accessing the ports requires your Github account to be logged in. This makes it a lot more secure
+The default VNC password is `password`. You can change it using `vncpasswd` in VSCode. The VNC ports are not public.
 
-The default keyboard layout is English (US). You can change it in XFCE settings
+The default keyboard layout is English (US).
 
-To run Windows apps, install Wine: https://wiki.winehq.org/Ubuntu
+To run Windows apps, install wine: https://wiki.winehq.org/Ubuntu << the default package is outdated from apt!! use this guide
 
 # Limitations & bugs
-- No hardware acceleration because Codespace does not have a GPU
-- Terminal won't open. May work if you use Ubuntu 20.04, or use the XFCE Terminal
+- No hardware acceleration because Codespaces are not equipped with GPUs
+- Terminal Emulator crashes. XFCE Terminal opens and works, use that instead
