@@ -1,7 +1,7 @@
 # XFCE Desktop On Github Codespace
 This repo will set up the XFCE desktop environment on a Github Codespace and open a noVNC web interface.
 
-Using a desktop enviornment on a Codespace is allowed since Microsoft provided a documentation setting up a Fluxbox based desktop and installing a browser `https://github.com/devcontainers/features/tree/main/src/desktop-lite`, but this repo uses XFCE instead.
+Using a desktop environment on a Codespace is allowed since Microsoft provided a documentation setting up a Fluxbox based desktop and installing a browser `https://github.com/devcontainers/features/tree/main/src/desktop-lite`, but this repo uses XFCE instead.
 
 # How to use
 1. Create a new codespace: https://github.com/codespaces/new
