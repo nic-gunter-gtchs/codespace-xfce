@@ -21,7 +21,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
 	
 	# Installing i3 and vnc.
-    apt-get install -y tigervnc-standalone-server i3 dbus-x11 novnc python3-websockify python3-numpy python3-pip pipx cabextract tightvncserver htop software-properties-common && \
+    apt-get install -y tigervnc-standalone-server i3 dbus-x11 novnc python3-websockify python3-numpy python3-pip pipx cabextract tightvncserver htop software-properties-common xfce4 && \
 	# Remove dummy Firefox
     apt-get remove -y firefox && \ 
 	# Install Firefox without Snap
