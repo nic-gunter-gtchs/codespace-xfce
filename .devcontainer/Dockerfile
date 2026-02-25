@@ -19,7 +19,6 @@ RUN /usr/lib/apt/apt-helper download-file https://debian.sur5r.net/i3/pool/main/
 # Install necessary packages
 RUN apt-get update && \
     apt-get upgrade -y && \
-	
 	# Installing i3 and vnc.
     apt-get install -y tigervnc-standalone-server i3 dbus-x11 novnc python3-websockify python3-numpy python3-pip pipx cabextract tightvncserver htop software-properties-common xfce4 && \
 	# Remove dummy Firefox
